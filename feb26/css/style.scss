@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue ;
+    color:red;
+    font-family:cursive;
+  
+}
+header{
+    display: flex;
+}
+nav{
+    border:10px dashed blue;
+    // width:25%;
+}
+ul{
+    background-color: yellow;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    // float:left;.
+    // flex-direction: column;
+}
+section{
+    width: 100%;
+    background-color: mediumseagreen;
+}
+aside{
+    // float:right;
+    width: 25%;
+}
+article{
+    // float:left;
+    width: 75%;
+    background-color: mediumpurple;
+}

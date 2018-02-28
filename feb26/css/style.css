@@ -1,0 +1,37 @@
+body {
+  background-color: lightblue;
+  color: red;
+  font-family: cursive;
+}
+
+header {
+  display: flex;
+}
+
+nav {
+  border: 10px dashed blue;
+}
+
+ul {
+  background-color: yellow;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  width: 100%;
+  background-color: mediumseagreen;
+}
+
+aside {
+  width: 25%;
+}
+
+article {
+  width: 75%;
+  background-color: mediumpurple;
+}
+/*# sourceMappingURL=style.css.map */
