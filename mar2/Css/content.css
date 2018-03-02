@@ -1,0 +1,36 @@
+html {
+  background-color: midnightblue;
+}
+
+p {
+  color: lightblue;
+}
+
+span {
+  color: green;
+}
+
+#apple {
+  color: tomato;
+}
+
+#orange {
+  color: orangered;
+}
+
+div {
+  color: red;
+}
+
+div span {
+  color: orange;
+}
+
+.apple {
+  color: yellow;
+}
+
+.spoiled {
+  color: green;
+}
+/*# sourceMappingURL=content.css.map */

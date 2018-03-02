@@ -1,0 +1,88 @@
+$keycolor: hsl(181, 100%, 41%);
+$white: hsl(0, 0%,8%);
+$black: hsl(0, 0%, 8%);
+
+body{
+    font-famly:sans-serif;
+    text-transform: uppercase;
+}
+header{
+    padding: 10vw 2vw;
+    background-color:#00CED1;
+    text-align: center;
+    color: white;
+}
+//love and hate links
+//pseudo class link
+a:link{
+    color: inherit;
+}
+//pseudo class vistited
+a:visited {
+    color: lime;
+}
+//pseudo class
+a:hover{
+    color: red;
+}
+//pseudo class active
+a:active{
+    color:purple;
+}
+a{
+    color: inherit;
+}
+h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+h2{
+    font-weight: 100%;
+    margin:25px;
+}
+#features h2{
+    border-bottom:3px double $black;
+    display:inline-block;
+}
+header div{
+    width: 50%;
+    padding: 5vw;
+    border: 1px solid white;
+    border-width: 3px 1px;
+    border-style: double solid;
+    border-color: white;
+    margin: 0 auto;
+}
+#features ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li{
+        width: 25%;
+        padding: 40px;
+        border: 1px solid black;
+        margin-left:-1px;
+        margin-top: -1px;
+        text-align:center;
+    }
+    i{
+        font-size: 300%;
+    }
+}
+.btn{
+    background-color: transparentize($black, .75);
+    color:white;
+    padding: 15px 20px; 
+    text-decoration: none;
+    transition:background-color 400ms; 
+    transform: rotate(0deg);
+}
+a.btn:hover{
+    background-color: transparentize($black, .90);
+    transform:rotate(360deg);
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
