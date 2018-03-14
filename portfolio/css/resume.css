@@ -70,12 +70,11 @@ nav ul .current {
   display: flex;
   flex-direction: column;
   padding: 1em 1em;
-  color: lightgray;
-  font-size: 19.6px;
+  font-size: 20px;
 }
 
 .div4 {
-  padding: 1em 1em;
+  padding: 1em 11em;
 }
 
 .avatar {
@@ -90,6 +89,8 @@ nav ul .current {
 }
 
 aside {
+  display: flex;
+  justify-content: center;
   float: left;
   width: 40%;
   height: 50%;
@@ -100,6 +101,33 @@ section {
   background-color: #25c286;
   float: right;
   width: 60%;
-  height: 50%;
+  height: 328px;
 }
-/*# sourceMappingURL=portfolio.css.map */
+
+main {
+  background-color: #6b7285;
+  padding: 1em 8em;
+  color: whitesmoke;
+}
+
+main h3 {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+main p {
+  font-size: 20px;
+}
+
+#border {
+  border: 3px solid #25c286;
+  padding: 1em;
+}
+
+#dates {
+  background-color: #25c286;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  float: right;
+}
+/*# sourceMappingURL=resume.css.map */
