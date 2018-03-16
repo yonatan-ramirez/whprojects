@@ -4,7 +4,9 @@ html {
 }
 
 img {
-  border-radius: 50%;
+  float: right;
+  height: 150px;
+  width: 150px;
 }
 
 ul {
@@ -17,7 +19,7 @@ nav {
   padding: 0em 0em;
   color: #af6caf;
   border-radius: 20px;
-  margin: 0em 5em;
+  margin: 1em 2em;
 }
 
 li {
@@ -25,7 +27,7 @@ li {
   justify-content: space-between;
   font-size: 20px;
   margin: 0em 1.4em;
-  padding: 0em 1em;
+  padding: 0em .5em;
 }
 
 nav ul {
@@ -73,11 +75,6 @@ nav ul .current {
   font-size: 20px;
 }
 
-.avatar {
-  margin: 1em;
-  float: right;
-}
-
 #container {
   width: 90%;
   height: 100%;
@@ -85,63 +82,36 @@ nav ul .current {
 }
 
 aside {
-  display: flex;
-  justify-content: center;
-  float: left;
-  width: 40%;
-  height: 50%;
+  margin: 0em 1em;
+  width: 95%;
+  height: 100%;
   background-image: url("../image/Wooded.jpg");
 }
 
-section {
-  background-color: #25c286;
-  float: right;
-  width: 60%;
-  height: 328px;
-}
-
-main {
+.border {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1em;
+  margin: 1em 1em;
   background-color: #6b7285;
-  color: whitesmoke;
-  height: 50%;
-  width: 50%;
-  height: 50%;
-  float: left;
-}
-
-main h3 {
-  color: whitesmoke;
-}
-
-main p {
-  font-size: 17px;
 }
 
 #border {
   border: 3px solid #25c286;
+  padding: 1em;
 }
 
 .ul {
   display: flex;
-  justify-content: inherit;
+  justify-content: space-between;
   flex-direction: column;
-  padding: 1em;
-  align-items: center;
-}
-
-.right {
-  float: right;
-  width: 50%;
-  height: 50%;
-  background-color: #6b7285;
-  color: whitesmoke;
-  font-size: 17px;
 }
 
 #dates {
+  display: flex;
+  justify-content: center;
   background-color: #25c286;
-  padding: 4px 5px;
-  margin: 1px 5px;
-  float: right;
+  padding: 10px 10px 10px 10px;
+  margin: 12px 12px;
 }
-/*# sourceMappingURL=resume.css.map */
+/*# sourceMappingURL=education.css.map */
