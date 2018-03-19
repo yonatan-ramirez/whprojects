@@ -66,7 +66,7 @@ nav ul .current {
   font-size: 40px;
 }
 
-.three {
+#three {
   display: flex;
   flex-direction: column;
   padding: 1em 1em;
@@ -89,14 +89,14 @@ nav ul .current {
   margin: auto;
 }
 
-aside {
+#A {
   float: left;
   width: 40%;
   height: 50%;
   background-image: url("../image/Wooded.jpg");
 }
 
-section {
+#one {
   background-color: #25c286;
   float: right;
   width: 60%;
