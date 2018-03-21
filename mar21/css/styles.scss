@@ -1,0 +1,32 @@
+button{
+    border: 1px solid darker(midnightblue, 10);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: inherit;
+    &:hover{
+        background-color:lighten (midnightblue, 65);
+        cursor: pointer;
+    }
+}
+h1{
+    background-size:cover;
+    padding:25px;
+}
+body{
+    background-color:white;
+    transition: background-color 500ms;
+    margin: 0;
+}
+body.colorize{
+    background-color:red;
+}
+nav{
+    padding: 10px;
+    background-color: midnightblue;
+    display:flex;
+    justify-content: flex-end;
+    transition: background-image 500ms;
+}
+// #nav.colorize2{
+//     background-color: green;
+// }
