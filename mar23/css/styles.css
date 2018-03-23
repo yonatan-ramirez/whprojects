@@ -1,0 +1,47 @@
+body {
+  background-color: lightgreen;
+  margin: 0;
+}
+
+nav {
+  background-color: midnightblue;
+  padding: 5px;
+}
+
+nav.active {
+  color: black;
+  text-decoration: none;
+}
+
+nav li {
+  background-color: white;
+  display: inline-block;
+  padding: 15px 40px;
+  border-radius: 10px;
+  margin: 5px auto;
+  font-size: inherit;
+}
+
+nav li:hover {
+  background-color: lightgray;
+  border: 2px solid red;
+}
+
+nav a {
+  color: blue;
+  font-size: 25px;
+}
+
+main {
+  background-color: lightblue;
+  padding: 25px 25px;
+  margin: 25px 25px;
+}
+
+button {
+  border: 1px solid darker(midnightblue, 10);
+  border-radius: 4px;
+  padding: 10px;
+  font-size: inherit;
+}
+/*# sourceMappingURL=styles.css.map */

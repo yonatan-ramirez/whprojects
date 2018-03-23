@@ -3,7 +3,7 @@ function welcome(){
     document.getElementById('welcome').innerHTML= username;
 }
 
-// welcome();
+welcome();
 
 function fireworks(){
     document.getElementById('h1').style.backgroundImage = "url('../image/rocket-ship.png')";
