@@ -15,9 +15,9 @@ In your JS file:
     - Create 10 variables targeting each of the ID'd elements
     - Create 5 "click" eventListeners. 1 for each of the buttons && 1 for each of the <a> tags
     - Write 5 functions:
-        - 1 that automatically runs on page load; Change <body> background color
-        - 1 that toggles the navigation from horizontal orientation to vertical
-        - 1 that prompts the user for their first name and adds that name to the text of the <h1>
-        - 1 that doubles the users name font-size and changes the color
-        - 2 that change the text color of the clicked <a> tag
+       a2 - 1 that automatically runs on page load; Change <body> background color
+       btn3 - 1 that toggles the navigation from horizontal orientation to vertical
+       --btn1 - 1 that prompts the user for their first name and adds that name to the text of the <h1>
+      --btn2  - 1 that doubles the users name font-size and changes the color
+        a1- 2 that change the text color of the clicked <a> tag
 */
