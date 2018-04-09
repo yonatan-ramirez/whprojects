@@ -150,10 +150,14 @@ Bonus
 // Complex version:
 // loops
 // arrays
+var info = document.querySelector('h1');
 
+function printInfo(textInfo){
+    info.innerHTML = textInfo;
+}
 
 function getColor(){
-    var color = prompt("Type one color! Blue , Yellow , Red");
+    printInfo("Type one color! Blue , Yellow , Red");
     if(color == "Blue"){
         var blue= prompt("Pick one more color! Yellow, Red");
         if(blue == "Yellow"){
