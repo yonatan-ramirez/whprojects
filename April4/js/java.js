@@ -31,47 +31,47 @@ getUserName();
 // Arrays
 
 
-var cars = ["jeep", "subaru", "honda"];
-console.log(cars[1]); //get the second element
-console.log(cars.length); // how many elements
+// var cars = ["jeep", "subaru", "honda"];
+// console.log(cars[1]); //get the second element
+// console.log(cars.length); // how many elements
 
-// Push Method!
-cars.push("bmw"); //add to array
-console.log(cars);
+// // Push Method!
+// cars.push("bmw"); //add to array
+// console.log(cars);
 
-// Pop Method!
-cars.pop();
-console.log(cars);
+// // Pop Method!
+// cars.pop();
+// console.log(cars);
 
-// Remove Method!
-var removedCar = cars.pop();
-console.log(cars);
-console.log(removedCar);
+// // Remove Method!
+// var removedCar = cars.pop();
+// console.log(cars);
+// console.log(removedCar);
 
-// to add in font of an Array!
-// Unshift Method!
-cars.unshift("Chevy");
-console.log(cars);
+// // to add in font of an Array!
+// // Unshift Method!
+// cars.unshift("Chevy");
+// console.log(cars);
 
-// Shift Method!
-cars.shift();
-console.log(cars);
+// // Shift Method!
+// cars.shift();
+// console.log(cars);
 
-// Splice Method!
-cars.splice(1, 1, "red", "green");
-console.log(cars);
+// // Splice Method!
+// cars.splice(1, 1, "red", "green");
+// console.log(cars);
 
-cars.splice(1, 1, "Grape", "Banana", "Apple", "Kiwi", "Orange");
-console.log(cars);
+// cars.splice(1, 1, "Grape", "Banana", "Apple", "Kiwi", "Orange");
+// console.log(cars);
 
-cars.splice(2, 1);
-console.log(cars);
+// cars.splice(2, 1);
+// console.log(cars);
 
-// Slice Method! (Non-Destructive!)
-cars.slice(4);
-var removed = cars.slice(4)
-console.log(cars);
-console.log(removed);
+// // Slice Method! (Non-Destructive!)
+// cars.slice(4);
+// var removed = cars.slice(4)
+// console.log(cars);
+// console.log(removed);
 
 
 /*
@@ -151,16 +151,18 @@ Bonus
 // loops
 // arrays
 var info = document.querySelector('h1');
-
+document.getElementById('btn1').addEventListener('click', getColor);
 function printInfo(textInfo){
     info.innerHTML = textInfo;
 }
 
+
 function getColor(){
-    printInfo("Type one color! Blue , Yellow , Red");
-    if(color == "Blue"){
+    // printInfo("Type one color! Blue , Yellow , Red");
+    var color = document.getElementById('answer').value;
+    if(color == "blue"){
         var blue= prompt("Pick one more color! Yellow, Red");
-        if(blue == "Yellow"){
+        if(blue == "yellow"){
             alert("You made Green!");
         }else if(blue == "Red"){
             alert("You made Purple!");
@@ -168,7 +170,7 @@ function getColor(){
             alert("Error!");
         }
 
-    }else if(color == "Yellow"){
+    }else if(color == "yellow"){
         var yellow = prompt("Pick one more color! Blue, Red");
         if(yellow == "Blue"){
             alert("You made Green!");
@@ -178,7 +180,7 @@ function getColor(){
             alert("Error!");
         }
 
-    }else if(color == "Red"){
+    }else if(color == "red"){
         var red = prompt("Pick one more color! Yellow, Blue");
         if(red == "Yellow"){
             alert("You made Orange!");
@@ -187,8 +189,9 @@ function getColor(){
         }else{
             alert("Error!");
         }
-    }else{
-        alert("Error!");
-    }
+}
+    // else{
+    //     alert("Error!");
+    // }
 }
 getColor();
