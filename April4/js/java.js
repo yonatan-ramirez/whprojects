@@ -150,7 +150,10 @@ Bonus
 // Complex version:
 // loops
 // arrays
-var info = document.querySelector('h1');
+var info = document.getElementById('one');
+var div= document.getElementById('div');
+var two= document.getElementById('two');
+var li = document.getElementById('li');
 document.getElementById('btn1').addEventListener('click', getColor);
 function printInfo(textInfo){
     info.innerHTML = textInfo;
@@ -161,7 +164,10 @@ function getColor(){
     // printInfo("Type one color! Blue , Yellow , Red");
     var color = document.getElementById('answer').value;
     if(color == "blue"){
-        var blue= prompt("Pick one more color! Yellow, Red");
+        li.style.backgroundColor= "blue";
+        two.innerHTML= "You have picked Blue!";
+
+        div.innerHTML= "Pick one more color! Yellow, Red";
         if(blue == "yellow"){
             alert("You made Green!");
         }else if(blue == "Red"){
@@ -171,7 +177,9 @@ function getColor(){
         }
 
     }else if(color == "yellow"){
-        var yellow = prompt("Pick one more color! Blue, Red");
+
+        two.innerHTML= "You picked Yellow!"
+        div.innerHTML= "Pick one more color! Blue, Red";
         if(yellow == "Blue"){
             alert("You made Green!");
         }else if(yellow == "Red"){
@@ -181,7 +189,7 @@ function getColor(){
         }
 
     }else if(color == "red"){
-        var red = prompt("Pick one more color! Yellow, Blue");
+        div.innerHTML= "Pick one more color! Yellow, Blue";
         if(red == "Yellow"){
             alert("You made Orange!");
         }else if(red == "Blue"){

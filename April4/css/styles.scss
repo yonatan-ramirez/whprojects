@@ -1,0 +1,13 @@
+ul{
+    display:flex;
+    text-align: center;
+    list-style: none;
+    .box{
+        height: 30px;
+        width:30px;
+    }
+    li{
+        padding:10px;
+    
+    }
+}

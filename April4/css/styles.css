@@ -1,0 +1,15 @@
+ul {
+  display: flex;
+  text-align: center;
+  list-style: none;
+}
+
+ul .box {
+  height: 30px;
+  width: 30px;
+}
+
+ul li {
+  padding: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
