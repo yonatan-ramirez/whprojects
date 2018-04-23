@@ -1,0 +1,10 @@
+html {
+  background-color: midnightblue;
+  color: white;
+}
+
+body.dark {
+  background-color: gray;
+  color: yellow;
+}
+/*# sourceMappingURL=styles.css.map */
