@@ -1,0 +1,23 @@
+html {
+  background-color: midnightblue;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: gray;
+  padding: 10px;
+}
+
+header input {
+  border: 1px solid #ff6060;
+  padding: 5px;
+  border-radius: 4px;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+/*# sourceMappingURL=styles.css.map */
