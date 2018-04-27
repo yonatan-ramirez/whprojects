@@ -1,0 +1,5 @@
+css/styles.scss
+css/styles.css.map
+
+# adding ignore for github keys
+*/github.json
