@@ -1,0 +1,51 @@
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+header{
+    margin:0;
+    padding:0;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    background-color: midnightblue;
+    color: white;
+    border-bottom: 2px solid rgba(blue, 0.9);
+}
+a{
+    color:white;
+}
+a:hover{
+    background-color: rgba(rgb(255, 255, 0), 0.6); 
+    border-radius: 10%;
+    // padding: 1px 4px;
+    // margin: 0;
+    font-style: italic;
+    transition: background-color 400ms;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: flex-end;
+    text-decoration-line: underline;
+}
+#current{
+    color: yellow;
+    font-style: italic;
+    text-decoration-line: underline;
+    
+}
+li{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 50px;
+    margin: 0px 20px;
+    // border: 1px solid blue;
+    list-style: none;
+}
+body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    // background-color: gray;
+    background-image: url("../img/700.jpg");
+}
