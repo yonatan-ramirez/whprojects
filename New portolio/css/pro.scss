@@ -6,7 +6,7 @@ header{
 nav{
     margin: 0;
     padding: 0;
-    background-color: midnightblue;
+    background-color: rgba(midnightblue, 0.9);
     color: white;
     border-bottom: 2px solid rgba(blue, 0.9);
 }
@@ -14,7 +14,7 @@ a{
     color:white;
 }
 a:hover{
-    background-color: rgba(rgb(255, 255, 0), 0.6); 
+    background-color: rgba(rgb(255, 255, 0), 0.5); 
     border-radius: 10%;
     // padding: 1px 4px;
     // margin: 0;
@@ -25,7 +25,7 @@ ul{
     margin: 0;
     padding: 0;
     display:flex;
-    justify-content: flex-end;
+    justify-content: center;
     text-decoration-line: underline;
 }
 #current{
